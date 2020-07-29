@@ -1131,17 +1131,22 @@ header.sticky {
       color: #fff;
       width: 35px;
       height: 35px;
-      border-radius: 100%; }
+      border-radius: 100%;
+      -webkit-transition: 300ms all;
+      -o-transition: 300ms all;
+      transition: 300ms all; }
       .ac-review .swiper-header .swiper-button-prev::after, .ac-review .swiper-header .swiper-button-next::after {
         font-size: 18px; }
+      .ac-review .swiper-header .swiper-button-prev:hover, .ac-review .swiper-header .swiper-button-next:hover {
+        background: #96d31d; }
     .ac-review .swiper-header .swiper-button-prev::after {
-      -webkit-transform: translateX(-2px);
-          -ms-transform: translateX(-2px);
-              transform: translateX(-2px); }
+      -webkit-transform: translateX(-1px);
+          -ms-transform: translateX(-1px);
+              transform: translateX(-1px); }
     .ac-review .swiper-header .swiper-button-next::after {
-      -webkit-transform: translateX(2px);
-          -ms-transform: translateX(2px);
-              transform: translateX(2px); }
+      -webkit-transform: translateX(3px);
+          -ms-transform: translateX(3px);
+              transform: translateX(3px); }
     .ac-review .swiper-header .swiper-pagination {
       -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
@@ -3569,3 +3574,21 @@ button.swiper-pagination-bullet {
 @media screen and (max-width: 350px) {
   .swiper-container {
     max-width: 260px; } }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .ac-review .swiper-header .swiper-button-next::after {
+    width: 15px;
+    height: 15px;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    -webkit-transform: rotate(45deg) translateY(2px) translateX(-2px);
+        -ms-transform: rotate(45deg) translateY(2px) translateX(-2px);
+            transform: rotate(45deg) translateY(2px) translateX(-2px); }
+  .ac-review .swiper-header .swiper-button-prev::after {
+    width: 15px;
+    height: 15px;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    -webkit-transform: rotate(-45deg) translateY(3px) translateX(2px);
+        -ms-transform: rotate(-45deg) translateY(3px) translateX(2px);
+            transform: rotate(-45deg) translateY(3px) translateX(2px); } }
