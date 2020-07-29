@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acer Fixer - Ремонт ноутбуков Acer</title> 
+     
+    <link rel="preload"  href="assets/css/style.css" as="style" >
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/vendor.css">
+    
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.ico">  
+</head>
+<body>
+    
+    <div id="top"></div>
+    <!-- header start --> 
+    <header> 
+    <div class="ac-header"> 
+        <div class="container-fluid ">
+            <div class="container p-0 pl-sm-3 pr-sm-3"> 
+                    <nav class="navbar navbar-expand-lg navbar-light pl-0 pr-0">
+                        <a class="ac-header_logo js-link-top" href="#top">
+                            <div class="ac-header_logo__image">
+                                <svg>
+                                    <use xlink:href="#logo"></use>
+                                </svg>
+                           </div>
+                            <div class="ac-header_logo__text">
+                                <div>Acer Fixer</div>
+                                <div>Ремонт ноутбуков Acer</div>
+                            </div>
+                        </a>
+                        <button class="navbar-toggler js-navbar-toggle" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            <i>
+                                <svg class="d-none">
+                                    <use xlink:href="#close"></use>
+                                </svg>
+                            </i>
+                        </button>
+        
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="ac-header_collapse">
+                                <div class="ac-header_collapse__select">
+                                    <label >Ваш город:</label>
+                                    <select  id="yourcity">
+                                        <option selected >Санкт-Петербург</option>
+                                        <option>Москва</option> 
+                                        <option>Ростов</option> 
+                                        <option>Волгоград</option>
+                                        <option>Воронеж</option>
+                                        <option>Екатеринбург</option>
+                                        <option>Казань</option> 
+                                    </select> 
+                                </div>
+                                <div class="navbar-nav ac-header_collapse__menu"> 
+                                    <a class="nav-item js-link" href="#price">Прайс</a> 
+                                    <a class="nav-item js-link" href="#adv">Преимущества</a> 
+                                    <a class="nav-item js-link" href="#review">Отзывы</a>  
+                                    <a class="nav-item js-link" href="#contact">Контакты</a>  
+                                </div>
+                                <div class="ac-header_collapse__phone">
+                                    <div class="ac-header_collapse__phone-number">
+                                        <svg> 
+                                            <use xlink:href="#phone"></use>
+                                        </svg> 
+                                        <a href="tel:+71111111111">+71111111111</a>
+                                    </div>
+                                    <div class="btn-custom">
+                                        <button type="button"   data-service=""  data-toggle="modal" data-target="#exampleModal">
+                                            <span>
+                                                Заказать звонок
+                                            </span>
+                                        </button> 
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </nav> 
+            </div>
+        </div> 
+    </div> 
+    </header> 
+    <!-- header end -->
+
+    <!-- main banner start  -->
+    <div class="ac-main-banner">
+        <div class="container-fluid p-0">
+            <div class="container">
+               <div class="row">
+                   <div class="col-12 col-lg-5">
+                        <div class="ac-main-banner_content">
+                            <h1> 
+                                Обслуживание и ремонт <br>
+                                ноутбуков Acer
+                            </h1> 
+                            <h5>
+                                Только качественное оборудование для диагностики
+                            </h5>
+                            <div class="ac-main-banner_content_trig">
+                                <div class="item">
+                                    <div class="number">
+                                        0
+                                    </div>
+                                    <div>
+                                        <span>руб</span>
+                                        <span>диагностика</span>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="number">
+                                        1
+                                    </div>
+                                    <div>
+                                        <span>день</span>
+                                        <span>ремонта</span>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="number">
+                                        3
+                                    </div>
+                                    <div>
+                                        <span>года</span>
+                                        <span>гарантии</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ac-main-banner_content_form">
+                                <form action="#">
+                                    <div class="ac-main-banner_content_form_group btn-custom">
+                                        <span > 
+                                            <input type="tel" name="phone" required placeholder="Ваш телефон">
+                                        </span>
+                                        <button type="submit">
+                                            <span>
+                                                Заказать звонок
+                                            </span> 
+                                        </button>
+                                    </div>
+                                </form>
+                                <span>
+                                    Нажимая на кнопку "Заказать звонок" Вы соглашаетесь на обработку Ваших данных
+                                </span>
+                            </div>
+                        </div>
+                   </div> 
+                    <div class="col-lg-7">
+                        <div class="ac-main-banner_image d-none d-lg-flex" >
+                            <div class="image" style="background-image: url(assets/img/mb-image.png);"></div>
+                        </div>
+                    </div>
+               </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- main banner end -->
+
+
+    <!-- circle services start  -->
+    <div id="price"></div>
+    <div class="wr-service-el container"></div> 
+    <div class="wr-service heading">
+        <div class="container">
+            <h3>
+                Рассчитайте стоимость ремонта
+            </h3>
+            <h5>
+                Выберите тип поломки:
+            </h5> 
+          
+            <div class="wr-service_circle"> 
+                <div class="wr-service_circle-image"></div>
+                <div class="wr-service_circle__btn">
+                    <button class="circle_btn_1-1"  data-service="Зависает"  data-toggle="modal" data-target="#exampleModal">
+                        <span class="title">Зависает</span>
+                        <span class="price">Ремонт от <br> 450 руб.</span>
+                    </button>
+                    <button class="circle_btn_1-2"  data-service="Не включается"  data-toggle="modal" data-target="#exampleModal">
+                        <span class="title">Не включается</span>
+                        <span class="price">Ремонт от <br> 450 руб.</span>
+                    </button>
+                   <button class="circle_btn_2-1"  data-service="Перегревается"  data-toggle="modal" data-target="#exampleModal">
+                        <span class="title">Перегревается</span>
+                        <span class="price">Ремонт от <br> 450 руб.</span>
+                    </button>
+                    <button class="circle_btn_2-2"  data-service="Перезагружается"  data-toggle="modal" data-target="#exampleModal">
+                        <span class="title">Перезагружается</span>
+                        <span class="price">Ремонт от <br> 450 руб.</span>
+                    </button>
+                    <button class="circle_btn_3-1"  data-service="Не держит батарею"  data-toggle="modal" data-target="#exampleModal">
+                        <span class="title">Не держит батарею</span>
+                        <span class="price">Ремонт от <br> 550 руб.</span>
+                    </button>
+                    <button class="circle_btn_3-2"  data-service="Залит жидкостью"  data-toggle="modal" data-target="#exampleModal">
+                        <span class="title">Залит жидкостью</span>
+                        <span class="price">Ремонт от <br> 450 руб.</span>
+                    </button>
+                     <button class="circle_btn_4-1"  data-service="Шумит"  data-toggle="modal" data-target="#exampleModal">
+                        <span class="title">Шумит</span>
+                        <span class="price">Ремонт от <br> 750 руб.</span>
+                    </button>
+                    <button class="circle_btn_4-2"  data-service="Вирусы"  data-toggle="modal" data-target="#exampleModal">
+                        <span class="title">Вирусы</span>
+                        <span class="price">Ремонт от <br> 550 руб.</span>
+                    </button>
+                    <button class="circle_btn_5-1"  data-service="Нет звука"  data-toggle="modal" data-target="#exampleModal">
+                        <span class="title"> Нет звука</span>
+                        <span class="price">Ремонт от <br> 350 руб.</span>
+                    </button>
+                    <button class="circle_btn_5-2"  data-service="Разбит экран"  data-toggle="modal" data-target="#exampleModal">
+                        <span class="title">Разбит экран</span>
+                        <span class="price">Ремонт от <br> 350 руб.</span>
+                    </button>
+                   
+                </div>
+            </div>
+
+            <div class="wr-service-form">
+                <div class="wr-service-form_group">
+                    <span>
+                        <input type="tel" name="phone" placeholder="Ваш телефон"> 
+                    </span>
+                    <div class="btn-custom">
+                        <button  data-service=""  data-toggle="modal" data-target="#exampleModal">
+                            <span>
+                                Вызвать мастера
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                <span>
+                    Нажимая кнопку "Вызвать мастера" Вы соглашаетесь на обработку Ваших данных
+                </span>
+            </div>
+        </div>
+    </div>
+    <!-- circle services end -->
+  
+    <!-- choice start  -->
+    <div id="adv"></div>
+    <div class="ac-choice-el-1 container"></div>
+    <div class="ac-choice heading">
+        <div class="container">
+            <h3>
+                Почему клиенты выбирают нас? 
+            </h3>
+           <div class="row">
+               <div class="col-12 col-sm-6 p-0">
+                    <div class="ac-choice_item ac-choice_item-right ac-choice_item-line-1_1">
+                        <svg>
+                            <use xlink:href='#list'></use>
+                        </svg>
+                        <p>
+                            Диагностика за счет компании, <br>
+                            даже в случае отказа от ремонта 
+                        </p>
+                    </div> 
+               </div>
+               <div class="col-12 col-sm-6 p-0">
+                    <div class="ac-choice_item ac-choice_item-left ac-choice_item-line-1_2">
+                        <svg>
+                            <use xlink:href='#serv'></use>
+                        </svg>
+                        <p>
+                            Менеджер будет держать вас в <br>
+                            курсе всех этапов работы
+                        </p>
+                    </div> 
+               </div>
+               <div class="col-12 col-sm-6 p-0">
+                    <div class="ac-choice_item ac-choice_item-right ac-choice_item-line-2_1">
+                        <svg>
+                            <use xlink:href='#certificate'></use>
+                        </svg>
+                        <p>
+                            Предоставляем сертификаты <br>
+                            подлинности запчастей 
+                        </p>
+                    </div> 
+               </div>
+               <div class="col-12 col-sm-6 p-0">
+                    <div class="ac-choice_item ac-choice_item-left ac-choice_item-line-2_2">
+                        <svg>
+                            <use xlink:href='#chest'></use>
+                        </svg>
+                        <p>
+                            Свой склад - все запчасти <br>
+                            всегда в наличии
+                        </p>
+                    </div> 
+               </div>
+               <div class="col-12 col-sm-6 p-0">
+                    <div class="ac-choice_item ac-choice_item-right ac-choice_item-line-3_1">
+                        <svg>
+                            <use xlink:href='#shield'></use>
+                        </svg>
+                        <p>
+                            Гарантия на ремонт под печать <br>
+                            от 1 года до 3-х лет
+                        </p>
+                    </div> 
+               </div>
+               <div class="col-12 col-sm-6 p-0">
+                    <div class="ac-choice_item ac-choice_item-left ac-choice_item-line-3_2">
+                        <svg>
+                            <use xlink:href='#bank'></use>
+                        </svg>
+                        <p>
+                            Оплата после ремонта, <br>
+                            за готовый результат
+                        </p>
+                    </div> 
+               </div>
+           </div>
+
+           <div class="ac-choice__image d-none d-lg-flex">
+               <div class="image" style="background-image: url(assets/img/master.png);"></div>
+           </div>
+        </div>
+    </div> 
+    <div class="ac-choice-el-2 container"></div>
+    <!-- choice end  -->
+
+    <!-- 7 start -->
+    <div class="ac-timeform heading">
+        <div class="container">
+            <div class="row p-0">
+                <div class="col-12 col-lg-5">
+                    <div class="ac-timeform_content">
+                        <h3>
+                            Мы дорожим вашим временем! 
+                        </h3>
+                        <div class="ac-timeform_content_masters">
+                            <div class="number">7</div>
+                            <p>
+                                <span>Мастеров</span>
+                                готовы к выезду <br>
+                                прямо сейчас
+                            </p>
+                        </div>
+                        <div class="ac-timeform_content_form">
+                            <p>
+                                Среднее время ожидания мастера: 
+                                <span>
+                                    38 минут
+                                </span>
+                            </p>
+                            <div class="wr-service-form">
+                                <div class="wr-service-form_group">
+                                    <span>
+                                        <input type="tel" name="phone" placeholder="Ваш телефон"> 
+                                    </span>
+                                    <div class="btn-custom">
+                                        <button  data-service=""  data-toggle="modal" data-target="#exampleModal">
+                                            <span>
+                                                Вызвать мастера
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <span>
+                                    Нажимая кнопку "Вызвать мастера" Вы соглашаетесь на обработку Ваших данных
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="ac-timeform_image d-none d-lg-flex">
+                        <div class="image" style="background-image: url(assets/img/timeform.png);"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 7 end -->
+
+    <!-- start -->
+    <div class="ac-stage heading">
+        <div class="container">
+            <h3>
+                Как мы работаем:
+            </h3>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-4 p-sm-0">
+                    <div class="ac-stage_item">
+                        <div class="number">1</div>
+                        <div class="ac-stage_item-content">
+                            <svg>
+                                <use xlink:href="#email"></use>
+                            </svg>
+                            <div class="title" >
+                                Ваша заявка
+                                <span class="line-lg"></span>
+                                <span class="line-md"></span>
+                            </div>
+                            <p>
+                                Вы оставляете заявку <br>
+                                и наш специалист <br>
+                                связывается с вами
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 p-sm-0">
+                    <div class="ac-stage_item justify-content-lg-center">
+                        <div class="number">2</div>
+                        <div class="ac-stage_item-content">
+                            <svg>
+                                <use xlink:href="#headphones"></use>
+                            </svg>
+                            <div class="title" >
+                                Консультация
+                                <span class="line-lg" style="max-width: 100px;"></span>
+                            </div>
+                            <p>
+                                Наш менеджер ответит <br>
+                                на все ваши вопросы и <br>
+                                примет заявку
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 p-sm-0">
+                    <div class="ac-stage_item justify-content-lg-center ">
+                        <div class="number">3</div>
+                        <div class="ac-stage_item-content  w-auto">
+                            <svg>
+                                <use xlink:href="#touch"></use>
+                            </svg>
+                            <div class="title" >
+                                Диагностика 
+                                <span class="line-md"></span>
+                            </div>
+                            <p>
+                                Осуществим<br>
+                                за счет компании
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 p-sm-0">
+                    <div class="ac-stage_item">
+                        <div class="number">4</div>
+                        <div class="ac-stage_item-content">
+                            <svg>
+                                <use xlink:href="#user"></use>
+                            </svg>
+                            <div class="title" >
+                                Согласование
+                                <span class="line-lg"></span>
+                            </div>
+                            <p>
+                                Персональный менеджер<br> 
+                                согласует в вами сроки и<br> 
+                                стоимость ремонта
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 p-sm-0">
+                    <div class="ac-stage_item justify-content-lg-center">
+                        <div class="number">5</div>
+                        <div class="ac-stage_item-content">
+                            <svg>
+                                <use xlink:href="#box"></use>
+                            </svg>
+                            <div class="title" >
+                                Ремонт
+                                <span class="line-lg"></span> 
+                                <span class="line-md"></span>
+                            </div>
+                            <p>
+                                Производи ремонт  <br> 
+                                техники на месте
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 p-sm-0">
+                    <div class="ac-stage_item justify-content-lg-center">
+                        <div class="number">6</div>
+                        <div class="ac-stage_item-content">
+                            <svg>
+                                <use xlink:href="#card"></use>
+                            </svg>
+                            <div class="title" >
+                                Оплата 
+                            </div>
+                            <p>
+                                Оплата производится <br> 
+                                после ремонта и проверки <br>
+                                устройства
+                            </p>
+                        </div>
+                    </div>
+                </div>
+              
+            </div>
+
+            <div class="ac-stage-form">
+                <div class="wr-service-form">
+                    <div class="wr-service-form_group">
+                        <span>
+                            <input type="tel" name="phone" placeholder="Ваш телефон"> 
+                        </span>
+                        <div class="btn-custom">
+                            <button  data-service=""  data-toggle="modal" data-target="#exampleModal">
+                                <span>
+                                    Вызвать мастера
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                    <span>
+                        Нажимая кнопку "Вызвать мастера" Вы соглашаетесь на обработку Ваших данных
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+
+    <!-- timer start -->
+    <div class="ac-timer ">
+        <div class="container">
+            <div class="ac-timer_item">
+                <h4>
+                    Оставьте заявку прямо сейчас и получите <br>
+                    <span>скидку 15%</span> на ремонт
+                </h4>
+                <h5>
+                    До конца акции осталось:
+                </h5>
+    
+                <div class="timer">
+                    <div class="hour"></div>
+                    <i>:</i>
+                    <div class="minute"></div>
+                    <i>:</i>
+                    <div class="second"></div>
+                </div> 
+
+                <div class="ac-timer_item-form">
+                    <div class="wr-service-form">
+                        <div class="wr-service-form_group">
+                            <span>
+                                <input type="tel" name="phone" placeholder="Ваш телефон"> 
+                            </span>
+                            <span>
+                                <input type="hidden" name="sale" value="sale15%"  > 
+                            </span>
+                            <div class="btn-custom">
+                                <button  data-service=""  data-toggle="modal" data-target="#exampleModal">
+                                    <span>
+                                        Вызвать мастера
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                        <span>
+                            Нажимая кнопку "Вызвать мастера" Вы соглашаетесь на обработку Ваших данных
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- timer end -->
+   
+   
+    <!-- swiper reviews start -->
+    <div id="review"></div>
+    <div class="ac-review-el container"></div>
+    <div class="ac-review heading">
+        <div class="container">
+            <h3>
+                История последних обращений 
+            </h3>
+            <div class="swiper-container">
+
+                <div class="swiper-header">
+                    <div class="swiper-button-prev"></div>  
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                      <div class="ac-review_item">
+                        <div class="ac-review_item-content">
+                             <div class="ac-review_item-content-el">
+                                 <h6>Проблема:</h6>
+                                 <p>Видео на экране глючит</p>
+                             </div>
+                             <div class="ac-review_item-content-el">
+                                 <h6>Заключение:</h6>
+                                 <p>Неисправность видеокарты</p>
+                             </div>
+                             <div class="ac-review_item-content-el">
+                                 <h6>Решение:</h6>
+                                 <p>замена видеокарты</p>
+                             </div>
+                             <div class="ac-review_item-content-el">
+                                 <h6>Срок гарантии:</h6>
+                                 <p>2 года</p>
+                             </div>
+                            <div class="ac-review_item-content-price">
+                                <h6>Стоимость работы со скидкой:</h6>
+                                <p>1000 рублей</p>
+                            </div>
+                        </div>
+                        <div class="ac-review_item-image d-none d-lg-block" style="background-image: url(assets/img/rev1.jpg);"></div>
+                      </div>
+                  </div> 
+                  <div class="swiper-slide">
+                      <div class="ac-review_item">
+                        <div class="ac-review_item-content">
+                             <div class="ac-review_item-content-el">
+                                 <h6>Проблема:</h6>
+                                 <p>Перестали работать отдельные детали устройства (клавиатура, тачпад)</p>
+                             </div>
+                             <div class="ac-review_item-content-el">
+                                 <h6>Заключение:</h6>
+                                 <p>Повреждение контроллера «южный мост»</p>
+                             </div>
+                             <div class="ac-review_item-content-el">
+                                 <h6>Решение:</h6>
+                                 <p>Ремонт южного моста</p>
+                             </div>
+                             <div class="ac-review_item-content-el">
+                                 <h6>Срок гарантии:</h6>
+                                 <p>1 год</p>
+                             </div>
+                            <div class="ac-review_item-content-price">
+                                <h6>Стоимость работы со скидкой:</h6>
+                                <p>1000 рублей</p>
+                            </div>
+                        </div>
+                        <div class="ac-review_item-image d-none d-lg-block" style="background-image: url(assets/img/rev2.jpg);"></div>
+                      </div>
+                  </div> 
+                  <div class="swiper-slide">
+                      <div class="ac-review_item">
+                        <div class="ac-review_item-content">
+                             <div class="ac-review_item-content-el">
+                                 <h6>Проблема:</h6>
+                                 <p>Зависает </p>
+                             </div>
+                             <div class="ac-review_item-content-el">
+                                 <h6>Заключение:</h6>
+                                 <p> Нехватка оперативной памяти для решения текущих задач</p>
+                             </div>
+                             <div class="ac-review_item-content-el">
+                                 <h6>Решение:</h6>
+                                 <p>Замена оперативной памяти</p>
+                             </div>
+                             <div class="ac-review_item-content-el">
+                                 <h6>Срок гарантии:</h6>
+                                 <p>1 год</p>
+                             </div>
+                            <div class="ac-review_item-content-price">
+                                <h6>Стоимость работы со скидкой:</h6>
+                                <p>1000 рублей</p>
+                            </div>
+                        </div>
+                        <div class="ac-review_item-image d-none d-lg-block" style="background-image: url(assets/img/rev3.jpg);"></div>
+                      </div>
+                  </div> 
+                  <div class="swiper-slide">
+                      <div class="ac-review_item">
+                        <div class="ac-review_item-content">
+                             <div class="ac-review_item-content-el">
+                                 <h6>Проблема:</h6>
+                                 <p>Ноутбук Acer зависает на зарядке </p>
+                             </div>
+                             <div class="ac-review_item-content-el">
+                                 <h6>Заключение:</h6>
+                                 <p>Проблема в блоке питания</p>
+                             </div>
+                             <div class="ac-review_item-content-el">
+                                 <h6>Решение:</h6>
+                                 <p>Замена блока питания</p>
+                             </div>
+                             <div class="ac-review_item-content-el">
+                                 <h6>Срок гарантии:</h6>
+                                 <p>1 год</p>
+                             </div>
+                            <div class="ac-review_item-content-price">
+                                <h6>Стоимость работы со скидкой:</h6>
+                                <p>1000 рублей</p>
+                            </div>
+                        </div>
+                        <div class="ac-review_item-image d-none d-lg-block" style="background-image: url(assets/img/rev4.jpg);"></div>
+                      </div>
+                  </div> 
+                   
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- swiper reviews end --> 
+
+ 
+ 
+    <!-- contacts start  -->
+    <div class="container-fluid position-relative">
+        <div id="contact"></div>
+        <div class="container">
+            <div class="service-contact  ">
+                <div class="row"> 
+                    <div class="col-12 col-lg-6 p-0 ">
+                        <div class="service-contact_item">
+                            <h3>Наши контакты</h3>
+                            <h5>свяжитесь с нами любым удобным для Вас способом  </h5>
+                            <div class="tel">
+                                <svg>
+                                    <use xlink:href='#phone'></use>
+                                </svg>
+                                <a href="tel:++71111111111">+71111111111</a>
+                            </div>
+                            <form action="#">
+                                <p>Задайте нам вопрос</p>
+                                <div class="kr-form">
+                                    <div class="kr-form-inputs">
+                                        <span>
+                                            <input name="name" type="text" placeholder="Ваше имя" required>
+                                        </span>
+                                        <span>
+                                            <input name="phone" type="tel" placeholder="Ваш телефон" required>
+                                        </span>
+                                    </div>
+                                    <textarea  cols="30" rows="10" placeholder="Ваш коментарий" ></textarea>
+                                </div>
+                                <div class="service-contact_item-btn">
+                                    <div class="btn-custom">
+                                        <button type="submit">
+                                            <span>Отправить</span>
+                                        </button>
+                                        
+                                    </div>
+                                    <span>Нажимая на кнопку "Отправить" Вы соглашаетесь на обработку Ваших данных</span>
+                                </div>
+                               
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 p-0 position-static "> 
+                        <div class="map" style="background-color: #00B77C;">
+                            <div id="yamap"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contacts end  -->
+   
+
+    <!-- footer start -->
+    <footer>
+        <div class="container footer-thriangle"></div>
+        <div class="electro-footer">
+            <div class="container-fluid">
+                <div class="container electro-footer-container"> 
+                    <a class="electro-footer_logo js-link" href="#top"> 
+                        <div class="electro-footer_logo__image">
+                            <svg>   
+                                <use xlink:href="#logo"></use>
+                            </svg>
+                        </div>
+                        <div class="electro-footer_logo__text">
+                            <div>Acer Fixer</div>
+                            <div>Ремонт ноутбуков Acer</div>
+                        </div> 
+                    </a>
+                    <div class="electro-footer_menu"> 
+                        <a class="nav-item js-link" href="#price">Прайс</a> 
+                        <a class="nav-item js-link" href="#adv">Преимущества</a>  
+                        <a class="nav-item js-link" href="#review">Отзывы</a>  
+                        <a class="nav-item js-link" href="#contact">Контакты</a> 
+                    </div>
+                    <div class="electro-footer_tools ">
+                                
+                        <div class="electro-footer_tools-phone"> 
+                            <div class="number"> 
+                                <a href="tel:+71111111111">
+                                    <svg> 
+                                        <use xlink:href="#phone"></use>
+                                    </svg> 
+                                    +71111111111
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+
+                <div class="container">
+                    <div class="links">
+                        <!-- <a href="/">Политика конфиденциальности</a> -->
+                        <span> Представленная на сайте информация не является публичной офертой</span>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- Modal -->
+    <div class="service-modal modal fade" id="exampleModal" tabindex="-1" role="dialog"   aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+        <div class="modal-header"> 
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true"> 
+                <span class="modal-close">
+                    <svg>
+                        <use xlink:href="#close"></use>
+                    </svg>
+                </span>
+            </span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <div class="service-modal-container">
+                
+                <div class="service-modal-container__item">
+                     
+                    <h3>
+                        Связь с нами
+                    </h3>
+                    <h6>Заполните форму ниже и мы перезвоним Вам через 5 минут</h6>
+                    
+                    
+                    <form name="modalForm" > 
+                        
+                        
+                        <span>
+                            <input id="js-form-service" name="service" value='12' type="hidden">
+                        </span>
+                        
+                        <span>
+                            <input name="name" type="text" placeholder="Ваше имя" required>
+                        </span>
+                        <span>
+                            <input name="phone" type="tel" placeholder="Ваш телефон" required> 
+                        </span>
+                        <div class="btn-custom ">
+                            <button type="submit">
+                                <b>Перезвоните мне</b>
+                            </button>
+                        </div>
+                    </form>
+                    <span>Нажимая кнопку "Перезвоните мне" Вы соглашаетесь на обработку Ваших персональных данных</span>
+                </div>
+            </div>
+        </div>
+            
+        </div>
+    </div>
+    </div>
+ 
+
+
+<svg display="none"> 
+   
+
+    <symbol id="logo" viewBox="0 0 468.293 468.293">
+                <path style="fill:#3A556A;" d="M51.817,292.245V60.712c0-6.897,5.591-12.488,12.488-12.488h339.682
+            c6.897,0,12.488,5.591,12.488,12.488v231.533H51.817z"/>
+        <polygon style="fill:#64798A;" points="0,388.119 51.817,292.245 416.475,292.245 468.293,388.119 "/>
+        <rect x="66.635" y="63.038" style="fill:#EBF0F3;" width="335.023" height="214.416"/>
+        <path style="fill:#3A556A;" d="M0,388.119h468.293v19.462c0,6.897-5.591,12.488-12.488,12.488H12.488
+            C5.591,420.068,0,414.477,0,407.581V388.119z"/>
+        <polygon style="fill:#E1E6E9;" points="284.098,365.836 184.195,365.836 200.877,335.225 267.416,335.225 "/>
+        <g>
+            <path style="fill:#D5D6DB;" d="M126.15,85.92l-30.701,30.701c-2.439,2.439-2.439,6.39,0,8.829c1.22,1.22,2.817,1.829,4.415,1.829
+                c1.598,0,3.195-0.61,4.415-1.829L134.98,94.75c2.439-2.439,2.439-6.39,0-8.829C132.541,83.481,128.59,83.481,126.15,85.92z"/>
+            <path style="fill:#D5D6DB;" d="M117.535,141.939l-19.39,19.39c-2.439,2.439-2.439,6.39,0,8.829c1.22,1.22,2.817,1.829,4.415,1.829
+                c1.598,0,3.195-0.61,4.415-1.829l19.39-19.39c2.439-2.439,2.439-6.39,0-8.829C123.925,139.5,119.974,139.5,117.535,141.939z"/>
+            <path style="fill:#D5D6DB;" d="M180.23,88.076c-2.439-2.439-6.39-2.439-8.829,0l-32.665,32.665c-2.439,2.439-2.439,6.39,0,8.829
+                c1.22,1.22,2.817,1.829,4.415,1.829s3.195-0.61,4.415-1.829l32.665-32.665C182.669,94.466,182.669,90.515,180.23,88.076z"/>
+        </g>
+    </symbol>
+
+    <symbol id="close" viewBox="0 0 329.26933 329">
+        <path
+        d="m194.800781 164.769531 128.210938-128.214843c8.34375-8.339844 8.34375-21.824219 0-30.164063-8.339844-8.339844-21.824219-8.339844-30.164063 0l-128.214844 128.214844-128.210937-128.214844c-8.34375-8.339844-21.824219-8.339844-30.164063 0-8.34375 8.339844-8.34375 21.824219 0 30.164063l128.210938 128.214843-128.210938 128.214844c-8.34375 8.339844-8.34375 21.824219 0 30.164063 4.15625 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921875-2.089844 15.082031-6.25l128.210937-128.214844 128.214844 128.214844c4.160156 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921874-2.089844 15.082031-6.25 8.34375-8.339844 8.34375-21.824219 0-30.164063zm0 0" />
+    </symbol>  
+  
+    <symbol id="phone"  viewBox="0 0 513.64 513.64">
+        <g>
+            <g>
+                <path d="M499.66,376.96l-71.68-71.68c-25.6-25.6-69.12-15.359-79.36,17.92c-7.68,23.041-33.28,35.841-56.32,30.72
+                    c-51.2-12.8-120.32-79.36-133.12-133.12c-7.68-23.041,7.68-48.641,30.72-56.32c33.28-10.24,43.52-53.76,17.92-79.36l-71.68-71.68
+                    c-20.48-17.92-51.2-17.92-69.12,0l-48.64,48.64c-48.64,51.2,5.12,186.88,125.44,307.2c120.32,120.32,256,176.641,307.2,125.44
+                    l48.64-48.64C517.581,425.6,517.581,394.88,499.66,376.96z"/>
+            </g>
+        </g>
+    </symbol> 
+    <symbol id="list" viewBox="0 0 438.891 438.891" >
+        <g>
+            <g>
+                <g>
+                    <path d="M347.968,57.503h-39.706V39.74c0-5.747-6.269-8.359-12.016-8.359h-30.824c-7.314-20.898-25.6-31.347-46.498-31.347
+                        c-20.668-0.777-39.467,11.896-46.498,31.347h-30.302c-5.747,0-11.494,2.612-11.494,8.359v17.763H90.923
+                        c-23.53,0.251-42.78,18.813-43.886,42.318v299.363c0,22.988,20.898,39.706,43.886,39.706h257.045
+                        c22.988,0,43.886-16.718,43.886-39.706V99.822C390.748,76.316,371.498,57.754,347.968,57.503z M151.527,52.279h28.735
+                        c5.016-0.612,9.045-4.428,9.927-9.404c3.094-13.474,14.915-23.146,28.735-23.51c13.692,0.415,25.335,10.117,28.212,23.51
+                        c0.937,5.148,5.232,9.013,10.449,9.404h29.78v41.796H151.527V52.279z M370.956,399.185c0,11.494-11.494,18.808-22.988,18.808
+                        H90.923c-11.494,0-22.988-7.314-22.988-18.808V99.822c1.066-11.964,10.978-21.201,22.988-21.42h39.706v26.645
+                        c0.552,5.854,5.622,10.233,11.494,9.927h154.122c5.98,0.327,11.209-3.992,12.016-9.927V78.401h39.706
+                        c12.009,0.22,21.922,9.456,22.988,21.42V399.185z"/>
+                    <path d="M179.217,233.569c-3.919-4.131-10.425-4.364-14.629-0.522l-33.437,31.869l-14.106-14.629
+                        c-3.919-4.131-10.425-4.363-14.629-0.522c-4.047,4.24-4.047,10.911,0,15.151l21.42,21.943c1.854,2.076,4.532,3.224,7.314,3.135
+                        c2.756-0.039,5.385-1.166,7.314-3.135l40.751-38.661c4.04-3.706,4.31-9.986,0.603-14.025
+                        C179.628,233.962,179.427,233.761,179.217,233.569z"/>
+                    <path d="M329.16,256.034H208.997c-5.771,0-10.449,4.678-10.449,10.449s4.678,10.449,10.449,10.449H329.16
+                        c5.771,0,10.449-4.678,10.449-10.449S334.931,256.034,329.16,256.034z"/>
+                    <path d="M179.217,149.977c-3.919-4.131-10.425-4.364-14.629-0.522l-33.437,31.869l-14.106-14.629
+                        c-3.919-4.131-10.425-4.364-14.629-0.522c-4.047,4.24-4.047,10.911,0,15.151l21.42,21.943c1.854,2.076,4.532,3.224,7.314,3.135
+                        c2.756-0.039,5.385-1.166,7.314-3.135l40.751-38.661c4.04-3.706,4.31-9.986,0.603-14.025
+                        C179.628,150.37,179.427,150.169,179.217,149.977z"/>
+                    <path d="M329.16,172.442H208.997c-5.771,0-10.449,4.678-10.449,10.449s4.678,10.449,10.449,10.449H329.16
+                        c5.771,0,10.449-4.678,10.449-10.449S334.931,172.442,329.16,172.442z"/>
+                    <path d="M179.217,317.16c-3.919-4.131-10.425-4.363-14.629-0.522l-33.437,31.869l-14.106-14.629
+                        c-3.919-4.131-10.425-4.363-14.629-0.522c-4.047,4.24-4.047,10.911,0,15.151l21.42,21.943c1.854,2.076,4.532,3.224,7.314,3.135
+                        c2.756-0.039,5.385-1.166,7.314-3.135l40.751-38.661c4.04-3.706,4.31-9.986,0.603-14.025
+                        C179.628,317.554,179.427,317.353,179.217,317.16z"/>
+                    <path d="M329.16,339.626H208.997c-5.771,0-10.449,4.678-10.449,10.449s4.678,10.449,10.449,10.449H329.16
+                        c5.771,0,10.449-4.678,10.449-10.449S334.931,339.626,329.16,339.626z"/>
+                </g>
+            </g>
+        </g>
+    </symbol> 
+    <symbol id="serv" viewBox="0 0 512 512"  >
+        <g><path d="m512 280c0-41.662-29.55-75.871-66.858-78.776-4.425-14.913-16.381-26.614-31.446-30.673-10.046-82.583-77.106-145.551-157.696-145.551s-147.65 62.968-157.695 145.551c-15.065 4.059-27.022 15.759-31.446 30.673-1.296.101-2.582.24-3.858.416v-97.64c0-8.284-6.716-15-15-15s-15 6.716-15 15v109.646c-19.837 14.084-33.001 38.556-33.001 66.354 0 41.662 29.55 75.871 66.858 78.776 4.411 14.866 16.305 26.537 31.303 30.632 6.39 37.194 38.85 65.592 77.839 65.592h3.469c6.276 18.58 23.86 32 44.531 32h64c25.916 0 47-21.084 47-47s-21.084-47-47-47h-64c-20.671 0-38.255 13.42-44.531 32h-3.469c-22.683 0-41.81-15.496-47.366-36.456 17.648-6.088 30.366-22.854 30.366-42.544v-132c0-19.759-12.806-36.572-30.55-42.606 9.37-66.256 63.146-116.394 127.55-116.394s118.18 50.138 127.55 116.394c-17.744 6.034-30.55 22.847-30.55 42.606v132c0 24.813 20.187 45 45 45h4c20.375 0 37.621-13.616 43.142-32.224 37.308-2.905 66.858-37.114 66.858-78.776zm-288 143h64c9.374 0 17 7.626 17 17s-7.626 17-17 17h-64c-9.374 0-17-7.626-17-17s7.626-17 17-17zm-194-143c0-23.787 15.425-44.268 35-48.287v96.573c-19.575-4.018-35-24.499-35-48.286zm99 66c0 8.271-6.729 15-15 15h-4c-8.271 0-15-6.729-15-15 0-48.134 0-87.504 0-132 0-8.271 6.729-15 15-15h4c8.271 0 15 6.729 15 15zm288 0c0 8.271-6.729 15-15 15h-4c-8.271 0-15-6.729-15-15v-132c0-8.271 6.729-15 15-15h4c8.271 0 15 6.729 15 15zm30-17.713v-96.573c19.575 4.019 35 24.5 35 48.287s-15.425 44.267-35 48.286z"/></g>
+    </symbol> 
+    <symbol id="certificate" viewBox="0 0 512 512"  >
+        <g><path d="m437 377v-302.742c0-40.946-33.312-74.258-74.257-74.258h-310.743v.013c-28.718.27-52 23.706-52 52.487v82.5h75v33.257c-42.511 7.163-75 44.227-75 88.743 0 26.596 11.599 50.529 30 67.02v126.008l45-30v17.715c0 40.946 33.312 74.257 74.257 74.257h310.743v-.013c28.718-.271 52-23.706 52-52.487v-82.5zm-407-324.5c0-12.406 10.093-22.5 22.5-22.5s22.5 10.094 22.5 22.5v52.5h-45zm60 144.5c33.084 0 60 26.916 60 60s-26.916 60-60 60-60-26.916-60-60 26.916-60 60-60zm-30 144.852c18.855 6.688 40.145 7.043 60 0v52.121l-30-20-30 20zm45 95.89v-17.715l45 30v-126.007c18.401-16.49 30-40.424 30-67.02 0-44.516-32.489-81.58-75-88.743 0-12.517 0-101.457 0-115.757 0-8.048-1.825-15.676-5.076-22.5h262.819c24.403 0 44.257 19.854 44.257 44.258v385.242c0 8.048 1.825 15.676 5.076 22.5h-262.819c-24.403 0-44.257-19.853-44.257-44.258zm377 21.758c0 12.406-10.094 22.5-22.5 22.5s-22.5-10.094-22.5-22.5v-52.5h45z"/><path d="m225 90h135v30h-135z"/><path d="m225 167h135v30h-135z"/><path d="m225 242h135v30h-135z"/><path d="m225 317h135v30h-135z"/><path d="m225 392h135v30h-135z"/></g>
+    </symbol> 
+    <symbol id="chest" viewBox="0 0 24 24" >
+        <path d="m23.31 14h-8.81c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h8.81c.276 0 .5.224.5.5s-.224.5-.5.5z"/><path d="m23.49 11h-8.96c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h8.96c.276 0 .5.224.5.5s-.223.5-.5.5z"/><path d="m9.47 11h-8.96c-.276 0-.5-.224-.5-.5s.223-.5.5-.5h8.96c.276 0 .5.224.5.5s-.224.5-.5.5z"/><path d="m9.5 14h-8.75c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h8.75c.276 0 .5.224.5.5s-.224.5-.5.5z"/><path d="m5.5 11c-.276 0-.5-.224-.5-.5v-8.75c0-.276.224-.5.5-.5s.5.224.5.5v8.75c0 .276-.224.5-.5.5z"/><path d="m18.5 11c-.276 0-.5-.224-.5-.5v-8.75c0-.276.224-.5.5-.5s.5.224.5.5v8.75c0 .276-.224.5-.5.5z"/><path d="m14.5 17h-5c-.276 0-.5-.224-.5-.5v-5.5c0-1.654 1.346-3 3-3s3 1.346 3 3v5.5c0 .276-.224.5-.5.5zm-4.5-1h4v-5c0-1.103-.897-2-2-2s-2 .897-2 2z"/><path d="m12 14c-.276 0-.5-.224-.5-.5v-2c0-.276.224-.5.5-.5s.5.224.5.5v2c0 .276-.224.5-.5.5z"/><path d="m20.871 23h-17.531c-1.289 0-2.384-1.007-2.491-2.292l-.83-9.974c-.014-.161-.013-.322.006-.484l.781-7.026c.14-1.268 1.209-2.224 2.484-2.224h17.42c1.275 0 2.344.956 2.484 2.225l.783 7.047c.016.145.02.288.011.431l-.622 9.954c-.082 1.314-1.178 2.343-2.495 2.343zm-17.581-21c-.766 0-1.406.573-1.49 1.334l-.781 7.028c-.011.097-.012.193-.004.289l.83 9.974c.066.783.709 1.375 1.495 1.375h17.531c.79 0 1.448-.617 1.497-1.406l.622-9.952c.005-.086.003-.173-.007-.26l-.783-7.047c-.084-.762-.724-1.335-1.49-1.335z"/>
+    </symbol> 
+    <symbol id="shield" viewBox="-38 0 512 512.00142"  >
+        <g  >
+            <path d="M 435.488281 138.917969 L 435.472656 138.519531 C 435.25 133.601562 435.101562 128.398438 435.011719 122.609375 C 434.59375 94.378906 412.152344 71.027344 383.917969 69.449219 C 325.050781 66.164062 279.511719 46.96875 240.601562 9.042969 L 240.269531 8.726562 C 227.578125 -2.910156 208.433594 -2.910156 195.738281 8.726562 L 195.40625 9.042969 C 156.496094 46.96875 110.957031 66.164062 52.089844 69.453125 C 23.859375 71.027344 1.414062 94.378906 0.996094 122.613281 C 0.910156 128.363281 0.757812 133.566406 0.535156 138.519531 L 0.511719 139.445312 C -0.632812 199.472656 -2.054688 274.179688 22.9375 341.988281 C 36.679688 379.277344 57.492188 411.691406 84.792969 438.335938 C 115.886719 468.679688 156.613281 492.769531 205.839844 509.933594 C 207.441406 510.492188 209.105469 510.945312 210.800781 511.285156 C 213.191406 511.761719 215.597656 512 218.003906 512 C 220.410156 512 222.820312 511.761719 225.207031 511.285156 C 226.902344 510.945312 228.578125 510.488281 230.1875 509.925781 C 279.355469 492.730469 320.039062 468.628906 351.105469 438.289062 C 378.394531 411.636719 399.207031 379.214844 412.960938 341.917969 C 438.046875 273.90625 436.628906 199.058594 435.488281 138.917969 Z M 384.773438 331.523438 C 358.414062 402.992188 304.605469 452.074219 220.273438 481.566406 C 219.972656 481.667969 219.652344 481.757812 219.320312 481.824219 C 218.449219 481.996094 217.5625 481.996094 216.679688 481.820312 C 216.351562 481.753906 216.03125 481.667969 215.734375 481.566406 C 131.3125 452.128906 77.46875 403.074219 51.128906 331.601562 C 28.09375 269.097656 29.398438 200.519531 30.550781 140.019531 L 30.558594 139.683594 C 30.792969 134.484375 30.949219 129.039062 31.035156 123.054688 C 31.222656 110.519531 41.207031 100.148438 53.765625 99.449219 C 87.078125 97.589844 116.34375 91.152344 143.234375 79.769531 C 170.089844 68.402344 193.941406 52.378906 216.144531 30.785156 C 217.273438 29.832031 218.738281 29.828125 219.863281 30.785156 C 242.070312 52.378906 265.921875 68.402344 292.773438 79.769531 C 319.664062 91.152344 348.929688 97.589844 382.246094 99.449219 C 394.804688 100.148438 404.789062 110.519531 404.972656 123.058594 C 405.0625 129.074219 405.21875 134.519531 405.453125 139.683594 C 406.601562 200.253906 407.875 268.886719 384.773438 331.523438 Z M 384.773438 331.523438 " style=" stroke:none;fill-rule:nonzero; fill-opacity:1;" />
+            <path d="M 217.996094 128.410156 C 147.636719 128.410156 90.398438 185.652344 90.398438 256.007812 C 90.398438 326.367188 147.636719 383.609375 217.996094 383.609375 C 288.351562 383.609375 345.59375 326.367188 345.59375 256.007812 C 345.59375 185.652344 288.351562 128.410156 217.996094 128.410156 Z M 217.996094 353.5625 C 164.203125 353.5625 120.441406 309.800781 120.441406 256.007812 C 120.441406 202.214844 164.203125 158.453125 217.996094 158.453125 C 271.785156 158.453125 315.546875 202.214844 315.546875 256.007812 C 315.546875 309.800781 271.785156 353.5625 217.996094 353.5625 Z M 217.996094 353.5625 " style=" stroke:none;fill-rule:nonzero;fill-opacity:1;" />
+            <path d="M 254.667969 216.394531 L 195.402344 275.660156 L 179.316406 259.574219 C 173.449219 253.707031 163.9375 253.707031 158.070312 259.574219 C 152.207031 265.441406 152.207031 274.953125 158.070312 280.816406 L 184.78125 307.527344 C 187.714844 310.460938 191.558594 311.925781 195.402344 311.925781 C 199.246094 311.925781 203.089844 310.460938 206.023438 307.527344 L 275.914062 237.636719 C 281.777344 231.769531 281.777344 222.257812 275.914062 216.394531 C 270.046875 210.523438 260.535156 210.523438 254.667969 216.394531 Z M 254.667969 216.394531 " style=" stroke:none;fill-rule:nonzero;fill-opacity:1;" />
+            </g>
+    </symbol> 
+    <symbol id="bank" viewBox="0 0 510 510">
+        <g><path d="m469.912 15h-339.824c-22.105 0-40.088 17.983-40.088 40.088v139.912h-49.912c-22.105 0-40.088 17.983-40.088 40.088v219.824c0 22.105 17.983 40.088 40.088 40.088h339.824c22.105 0 40.088-17.983 40.088-40.088v-139.912h49.912c22.105 0 40.088-17.983 40.088-40.088v-219.824c0-22.105-17.983-40.088-40.088-40.088zm-339.824 30h339.824c5.563 0 10.088 4.525 10.088 10.088v19.912h-360v-19.912c0-5.563 4.525-10.088 10.088-10.088zm349.912 60v30h-360v-30zm-90 349.912c0 5.562-4.525 10.088-10.088 10.088h-339.824c-5.563 0-10.088-4.525-10.088-10.088v-219.824c0-5.563 4.525-10.088 10.088-10.088h339.824c5.562 0 10.088 4.525 10.088 10.088zm79.912-169.912h-49.912v-49.912c0-22.105-17.983-40.088-40.088-40.088h-259.912v-30h360v109.912c0 5.563-4.525 10.088-10.088 10.088z"/><path d="m155 312.654c0-15.249-12.405-27.654-27.654-27.654h-39.692c-15.249 0-27.654 12.405-27.654 27.654v34.692c0 15.249 12.405 27.654 27.654 27.654h39.692c15.249 0 27.654-12.405 27.654-27.654zm-30 32.346h-35v-30h35z"/><path d="m60 405h60v30h-60z"/><path d="m150 405h60v30h-60z"/><path d="m240 405h60v30h-60z"/><path d="m330 405h30v30h-30z"/></g>
+    </symbol>
+   
+    <symbol id="email" viewBox="0 0 511.998 511.998">
+        <g><path d="m431.665 139.258v-122.04h-351.332v122.04l-80.333 57.38v298.142h511.998v-298.142zm-249.673 202.811-151.992 108.564v-217.128zm74.007-15.994 194.191 138.705h-388.382zm74.007 15.994 151.992-108.564v217.127zm141.185-137.712-39.526 28.232v-56.464zm-69.526-157.139v206.8l-97.466 69.618-48.2-34.428-48.2 34.428-97.466-69.618v-206.8zm-321.332 185.372-39.526-28.232 39.526-28.232z"/><path d="m152.716 86.074h103.283v30h-103.283z"/><path d="m152.716 154.929h206.566v30h-206.566z"/><path d="m152.716 223.785h206.566v30h-206.566z"/></g>
+    </symbol>
+    <symbol id="user"  viewBox="-42 0 512 512.001">
+        <path d="m210.351562 246.632812c33.882813 0 63.21875-12.152343 87.195313-36.128906 23.96875-23.972656 36.125-53.304687 36.125-87.191406 0-33.875-12.152344-63.210938-36.128906-87.191406-23.976563-23.96875-53.3125-36.121094-87.191407-36.121094-33.886718 0-63.21875 12.152344-87.191406 36.125s-36.128906 53.308594-36.128906 87.1875c0 33.886719 12.15625 63.222656 36.128906 87.195312 23.980469 23.96875 53.316406 36.125 87.191406 36.125zm-65.972656-189.292968c18.394532-18.394532 39.972656-27.335938 65.972656-27.335938 25.996094 0 47.578126 8.941406 65.976563 27.335938 18.394531 18.398437 27.339844 39.980468 27.339844 65.972656 0 26-8.945313 47.578125-27.339844 65.976562-18.398437 18.398438-39.980469 27.339844-65.976563 27.339844-25.992187 0-47.570312-8.945312-65.972656-27.339844-18.398437-18.394531-27.34375-39.976562-27.34375-65.976562 0-25.992188 8.945313-47.574219 27.34375-65.972656zm0 0"/><path d="m426.128906 393.703125c-.691406-9.976563-2.089844-20.859375-4.148437-32.351563-2.078125-11.578124-4.753907-22.523437-7.957031-32.527343-3.3125-10.339844-7.808594-20.550781-13.375-30.335938-5.769532-10.15625-12.550782-19-20.160157-26.277343-7.957031-7.613282-17.699219-13.734376-28.964843-18.199219-11.226563-4.441407-23.667969-6.691407-36.976563-6.691407-5.226563 0-10.28125 2.144532-20.042969 8.5-6.007812 3.917969-13.035156 8.449219-20.878906 13.460938-6.707031 4.273438-15.792969 8.277344-27.015625 11.902344-10.949219 3.542968-22.066406 5.339844-33.042969 5.339844-10.96875 0-22.085937-1.796876-33.042968-5.339844-11.210938-3.621094-20.300782-7.625-26.996094-11.898438-7.769532-4.964844-14.800782-9.496094-20.898438-13.46875-9.753906-6.355468-14.808594-8.5-20.035156-8.5-13.3125 0-25.75 2.253906-36.972656 6.699219-11.257813 4.457031-21.003906 10.578125-28.96875 18.199219-7.609375 7.28125-14.390625 16.121094-20.15625 26.273437-5.558594 9.785157-10.058594 19.992188-13.371094 30.339844-3.199219 10.003906-5.875 20.945313-7.953125 32.523437-2.0625 11.476563-3.457031 22.363282-4.148437 32.363282-.679688 9.777344-1.023438 19.953125-1.023438 30.234375 0 26.726562 8.496094 48.363281 25.25 64.320312 16.546875 15.746094 38.4375 23.730469 65.066406 23.730469h246.53125c26.621094 0 48.511719-7.984375 65.0625-23.730469 16.757813-15.945312 25.253906-37.589843 25.253906-64.324219-.003906-10.316406-.351562-20.492187-1.035156-30.242187zm-44.90625 72.828125c-10.933594 10.40625-25.449218 15.464844-44.378906 15.464844h-246.527344c-18.933594 0-33.449218-5.058594-44.378906-15.460938-10.722656-10.207031-15.933594-24.140625-15.933594-42.585937 0-9.59375.316406-19.066407.949219-28.160157.617187-8.921874 1.878906-18.722656 3.75-29.136718 1.847656-10.285156 4.199219-19.9375 6.996094-28.675782 2.683593-8.378906 6.34375-16.675781 10.882812-24.667968 4.332031-7.617188 9.316407-14.152344 14.816407-19.417969 5.144531-4.925781 11.628906-8.957031 19.269531-11.980469 7.066406-2.796875 15.007812-4.328125 23.628906-4.558594 1.050781.558594 2.921875 1.625 5.953125 3.601563 6.167969 4.019531 13.277344 8.605469 21.136719 13.625 8.859375 5.648437 20.273437 10.75 33.910156 15.152344 13.941406 4.507812 28.160156 6.796875 42.273437 6.796875 14.113282 0 28.335938-2.289063 42.269532-6.792969 13.648437-4.410156 25.058594-9.507813 33.929687-15.164063 8.042969-5.140624 14.953125-9.59375 21.121094-13.617187 3.03125-1.972656 4.902344-3.042969 5.953125-3.601563 8.625.230469 16.566406 1.761719 23.636719 4.558594 7.636719 3.023438 14.121093 7.058594 19.265625 11.980469 5.5 5.261719 10.484375 11.796875 14.816406 19.421875 4.542969 7.988281 8.207031 16.289062 10.886719 24.660156 2.800781 8.75 5.15625 18.398438 7 28.675782 1.867187 10.433593 3.132812 20.238281 3.75 29.144531v.007812c.636719 9.058594.957031 18.527344.960937 28.148438-.003906 18.449219-5.214844 32.378906-15.9375 42.582031zm0 0"/>
+    </symbol>
+    <symbol id="headphones" viewBox="0 0 512 512">
+        <g><path d="m512 384.891c0-16.646-4.577-32.242-12.53-45.603v-90.993c0-65.033-25.325-126.174-71.31-172.159-45.986-45.986-107.127-71.312-172.16-71.312s-126.174 25.326-172.159 71.311c-45.986 45.985-71.311 107.126-71.311 172.159v90.993c-7.953 13.362-12.53 28.957-12.53 45.604 0 44.203 32.237 81.013 74.434 88.169v34.116h40.925c38.571 0 69.951-31.38 69.951-69.951v-104.668c0-38.571-31.38-69.951-69.951-69.951h-10.829v-14.312c0-83.521 67.949-151.47 151.47-151.47 83.522 0 151.471 67.949 151.471 151.47v14.312h-10.828c-38.571 0-69.951 31.38-69.951 69.951v104.668c0 38.571 31.38 69.951 69.951 69.951h40.924v-34.116c42.196-7.157 74.433-43.966 74.433-88.169zm-74.434 57.516v-115.033c25.533 6.665 44.434 29.926 44.434 57.517s-18.901 50.852-44.434 57.516zm-30 34.769h-10.924c-22.029 0-39.951-17.922-39.951-39.951v-104.668c0-22.029 17.922-39.951 39.951-39.951h10.924zm-252.256-39.952c0 22.029-17.922 39.951-39.951 39.951h-10.925v-184.57h10.925c22.029 0 39.951 17.922 39.951 39.951zm-80.876-109.85v115.033c-25.533-6.664-44.434-29.925-44.434-57.516s18.901-50.852 44.434-57.517zm.096-79.08-.097 48.428c-11.53 1.956-22.315 6.124-31.903 12.054v-60.481c0-46.413 14.715-90.563 41.932-127.127l23.001 23c-20.738 29.494-32.933 65.411-32.933 104.126zm181.47-181.47c-50.535 0-96.303 20.771-129.238 54.215l-22.688-22.687c.329-.333.648-.672.979-1.004 40.319-40.319 93.927-62.524 150.947-62.524s110.626 22.205 150.945 62.524c.331.331.651.671.98 1.004l-22.687 22.687c-32.934-33.444-78.703-54.215-129.238-54.215zm148.538 77.342 23-22.999c27.217 36.564 41.932 80.715 41.932 127.127v60.481c-9.588-5.93-20.373-10.098-31.903-12.054l-.096-48.428c0-38.714-12.195-74.631-32.933-104.127z"/></g>
+    </symbol>
+    <symbol id="touch" viewBox="0 0 512 512">
+        <g><path d="m206.552 430.357h30.063v30h-30.063z"/><path d="m68.837 154.929h30.063v30h-30.063z"/><path d="m68.837 223.786h30.063v30h-30.063z"/><path d="m68.837 292.643h30.063v30h-30.063z"/><path d="m497.534 100.549c-14.677-14.677-36.36-18.164-54.379-10.485v-90.064h-443.143v512h443.143v-287.169l54.379-54.38c19.273-19.272 19.273-50.63 0-69.902zm-84.379-70.549v38.857h-383.143v-38.857zm-383.143 452v-73.286h383.143v73.286zm383.143-103.286h-383.143v-279.857h383.143v16.169l-39.903 39.902h-235.557v30h205.557l-38.857 38.857h-166.7v30h137.745v38.857h-137.745v30h207.648l67.812-67.812zm-107.715-113.547 21.517-21.517 27.476 27.476-21.517 21.517h-27.476zm170.881-115.929-100.674 100.675-27.476-27.476 100.675-100.675c7.575-7.575 19.9-7.576 27.476 0 7.574 7.575 7.574 19.901-.001 27.476z"/></g>
+    </symbol> 
+    <symbol id="box" viewBox="0 0 512 512">
+        <g><path d="m511.9 126.269c-.598-5.507-4.02-10.381-9.135-12.768l-240-112c-4.289-2.001-9.243-2.001-13.532 0l-240 112c-5.114 2.387-8.536 7.26-9.135 12.768-.013.115-.098 1.647-.098 1.731v272c0 6.542 3.983 12.426 10.058 14.855l240 96c1.907.763 3.925 1.145 5.942 1.145s4.035-.381 5.942-1.145l240-96c6.075-2.429 10.058-8.313 10.058-14.855v-272c0-.084-.087-1.617-.1-1.731zm-255.9-92.613 199.744 93.214-76.914 30.766-203.503-86.332zm-119.69 55.856 200.346 84.993-80.656 32.262-199.744-79.897zm-104.31 62.12 208 83.2v237.535l-208-83.2zm240 320.736v-237.536l208-83.2v237.535z"/></g>
+    </symbol>
+    <symbol id="card" viewBox="0 0 512 512">
+        <g><path d="m456 80h-400c-30.878 0-56 25.122-56 56v240c0 30.878 25.122 56 56 56h400c30.878 0 56-25.122 56-56v-240c0-30.878-25.122-56-56-56zm-400 32h400c13.233 0 24 10.767 24 24v32h-448v-32c0-13.233 10.767-24 24-24zm400 288h-400c-13.233 0-24-10.767-24-24v-176h448v176c0 13.233-10.767 24-24 24z"/><path d="m112 352h-16c-8.836 0-16-7.164-16-16v-16c0-8.836 7.164-16 16-16h16c8.836 0 16 7.164 16 16v16c0 8.836-7.164 16-16 16z"/></g>
+    </symbol> 
+</svg>
+
+
+<script src="assets/js/vendor.min.js"></script> 
+<script src="assets/js/script.min.js"></script> 
+ 
+
+</body>
+</html>
